@@ -2,28 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
 *{
     font-family:"Roboto", sans-serif ;
-
+    box-sizing: border-box;
+}
+html{
+    background: #304A6E;
 }
 .container{
-    background: #304A6E;
     display: flex;
-    width: 100vw;
-    height: 100vw;
+    width: auto;
 }
 /* tres divs principales */
 .datos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: #C0D0Ef ;
     border-radius: 10px;
-    width: 32%;
+    width: 30%;
     height: 90%;
     margin: 20px;
     padding: 10px;
 
 }
 .containerFoto{
-    justify-content: center;
-    width: 85%;
-    height: 30%;
+    width: 75%;
+    margin: 15px 25px;
 }
 .fotoeli{
     width: 100%;
