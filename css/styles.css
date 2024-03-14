@@ -34,3 +34,8 @@ html{
     border-radius: 50%;
     
 }
+
+.containerNombre{
+    box-sizing: border-box;
+
+}
