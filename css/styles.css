@@ -36,20 +36,25 @@ html {
   height: 100%;
   border-radius: 50%;
 }
-.fotoeli:hover, h3:hover, .redes img:hover, .stack img:hover{
+.fotoeli:hover,
+h3:hover,
+.redes img:hover,
+.stack img:hover,
+.containerimgProyecto img:hover {
   border: solid #153f75;
-  box-shadow:0 0 10px #053390;
+  box-shadow: 0 0 10px #053390;
 }
 /* informacion personal */
 .containerNombre {
   width: 100%;
-  border-top:solid #668dc0;
+  border-top: solid #668dc0;
   border-bottom: solid #668dc0;
   border-radius: 10px;
   padding: 10px;
 }
 .info-personal {
   width: 100%;
+  word-wrap: break-word;
 }
 /* redes sociales */
 .redes img {
@@ -62,7 +67,7 @@ html {
   display: flex;
   align-content: first baseline;
 }
-.redes{
+.redes {
   width: 100%;
 }
 a {
@@ -71,27 +76,32 @@ a {
 }
 
 .containerEstudios {
+  word-wrap: break-word;
   border-bottom: solid #668dc0;
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
 }
-.containerProyectos{
+.containerProyectos {
   width: 100%;
   border-bottom: solid #668dc0;
-  border-top:solid #668dc0;
+  border-top: solid #668dc0;
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
+  word-wrap: break-word;
 }
+
 .nativo,
 .ingles {
-  
   border-bottom: solid #668dc0;
   border-radius: 10px;
+  word-wrap: break-word;
+}
+.containerdatosProyecto {
+  word-wrap: break-word;
 }
 p {
-    
   font-size: 20px;
 }
 .containerStack {
@@ -107,25 +117,32 @@ p {
   padding: 5px;
   background: #304a6e;
   border-radius: 100px;
-
 }
 .stack {
   width: 100%;
-
+  word-wrap: break-word;
 }
-h3{
-    background:#153f75;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #c0d0ef;
-    border-radius: 10px;
-    padding: 20px;
-}
-.containerlogros{
+.containerimgProyecto {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.containerimgProyecto img {
+  width: 50%;
+}
+h3 {
+  width: 100%;
+  word-wrap: break-word;
+  background: #153f75;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #c0d0ef;
+  border-radius: 10px;
+  padding: 20px;
+}
+.containerlogros {
+  width: 100%;
+  word-wrap: break-word;
   padding: 10px;
   border-bottom: solid #668dc0;
   border-radius: 10px;
-  
-
 }
-
